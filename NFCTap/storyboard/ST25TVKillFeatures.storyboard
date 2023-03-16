@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Kill Features View Controller-->
+        <scene sceneID="dr7-1c-5UD">
+            <objects>
+                <viewController storyboardIdentifier="ST25TVKillFeaturesViewController" id="rES-Eb-040" customClass="ST25TVKillFeaturesViewController" customModule="NFC_Tap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h52-ya-noT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="69" translatesAutoresizingMaskIntoConstraints="NO" id="HQZ-Bh-wsY" userLabel="Header Stack View">
+                                <rect key="frame" x="20" y="64" width="374" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kill Tag features" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxs-JH-uco">
+                                        <rect key="frame" x="0.0" y="0.0" width="205" height="100"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ST10230_protection_information_3_dark_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tyh-nQ-rYg">
+                                        <rect key="frame" x="274" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Tyh-nQ-rYg" secondAttribute="height" multiplier="1:1" id="AI7-hQ-LqM"/>
+                                            <constraint firstAttribute="width" constant="100" id="ncq-dA-SBN"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9FB-l7-7pr"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Permanently kill this tag (a confirmation will be asked)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wu5-eY-dJZ">
+                                <rect key="frame" x="10" y="184" width="394" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NB: On  tags, the &quot;kill and untraceable mode&quot; features are using the same password (=password 0)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgf-V1-Uob">
+                                <rect key="frame" x="10" y="305" width="394" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="Agh-5i-qjF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bo0-cT-vgN">
+                                <rect key="frame" x="20" y="245" width="374" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4pd-Xk-akT"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="wmY-hs-K0i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Kill Tag">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="killTagAction:" destination="rES-Eb-040" eventType="touchUpInside" id="D3B-wy-hs0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9f5-cB-0RB">
+                                <rect key="frame" x="20" y="418" width="374" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="a0e-ys-haT"/>
+                                    <constraint firstAttribute="height" constant="40" id="eej-aS-XN7"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="rNa-jk-7Fb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Change kill password">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="changeKillPasswordAction:" destination="rES-Eb-040" eventType="touchUpInside" id="jr7-KY-o1N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgE-9l-kOT">
+                                <rect key="frame" x="20" y="478" width="374" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="Tbb-jT-gHI"/>
+                                    <constraint firstAttribute="height" constant="40" id="YLI-FM-6oH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="tkK-Y5-OUm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Lock kill password">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="lockKillPasswordAction:" destination="rES-Eb-040" eventType="touchUpInside" id="v49-Jg-pM2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oA7-fz-NFa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9f5-cB-0RB" firstAttribute="leading" secondItem="oA7-fz-NFa" secondAttribute="leading" constant="20" id="4jH-cC-2Ju" userLabel="Change kill password.leading = Safe Area.leading + 20"/>
+                            <constraint firstAttribute="trailing" secondItem="HQZ-Bh-wsY" secondAttribute="trailing" constant="20" id="Eo1-JA-mE9" userLabel="trailing = Header Stack View.trailing + 20"/>
+                            <constraint firstItem="bo0-cT-vgN" firstAttribute="leading" secondItem="oA7-fz-NFa" secondAttribute="leading" constant="20" id="JW9-ta-nkO"/>
+                            <constraint firstItem="wu5-eY-dJZ" firstAttribute="top" secondItem="HQZ-Bh-wsY" secondAttribute="bottom" constant="20" id="KrD-s9-0We"/>
+                            <constraint firstItem="Vgf-V1-Uob" firstAttribute="leading" secondItem="oA7-fz-NFa" secondAttribute="leading" constant="10" id="KwR-Sq-IRK">
+                                <string key="userLabel">NB: On ST25TV tags, the "kill and untraceable mode" features are using the same password (=password 0).leading = Safe Area.leading + 20</string>
+                            </constraint>
+                            <constraint firstItem="oA7-fz-NFa" firstAttribute="trailing" secondItem="wu5-eY-dJZ" secondAttribute="trailing" constant="10" id="L8q-BF-l7c" userLabel="Safe Area.trailing = Permanently kill this tag (a confirmation will be asked).trailing + 20"/>
+                            <constraint firstItem="HQZ-Bh-wsY" firstAttribute="leading" secondItem="oA7-fz-NFa" secondAttribute="leading" constant="20" id="Lld-Xw-ZUQ" userLabel="Header Stack View.leading = Safe Area.leading + 20"/>
+                            <constraint firstItem="wu5-eY-dJZ" firstAttribute="leading" secondItem="oA7-fz-NFa" secondAttribute="leading" constant="10" id="ZJO-Ue-tue" userLabel="Permanently kill this tag (a confirmation will be asked).leading = Safe Area.leading + 20"/>
+                            <constraint firstItem="bo0-cT-vgN" firstAttribute="top" secondItem="wu5-eY-dJZ" secondAttribute="bottom" constant="20" id="aEp-4u-Rdp"/>
+                            <constraint firstItem="oA7-fz-NFa" firstAttribute="trailing" secondItem="Vgf-V1-Uob" secondAttribute="trailing" constant="10" id="bx8-el-2hl">
+                                <string key="userLabel">Safe Area.trailing = NB: On ST25TV tags, the "kill and untraceable mode" features are using the same password (=password 0).trailing + 20</string>
+                            </constraint>
+                            <constraint firstItem="rgE-9l-kOT" firstAttribute="top" secondItem="9f5-cB-0RB" secondAttribute="bottom" constant="20" id="dbV-b4-0he"/>
+                            <constraint firstItem="oA7-fz-NFa" firstAttribute="trailing" secondItem="bo0-cT-vgN" secondAttribute="trailing" constant="20" id="gM0-Pk-iPz"/>
+                            <constraint firstItem="oA7-fz-NFa" firstAttribute="trailing" secondItem="rgE-9l-kOT" secondAttribute="trailing" constant="20" id="lUa-6H-Tsf" userLabel="Safe Area.trailing = Lock kill password.trailing + 20"/>
+                            <constraint firstItem="HQZ-Bh-wsY" firstAttribute="top" secondItem="oA7-fz-NFa" secondAttribute="top" constant="20" id="p2z-6I-ngX"/>
+                            <constraint firstItem="rgE-9l-kOT" firstAttribute="leading" secondItem="oA7-fz-NFa" secondAttribute="leading" constant="20" id="pyi-Ns-rmy" userLabel="Lock kill password.leading = Safe Area.leading + 20"/>
+                            <constraint firstItem="oA7-fz-NFa" firstAttribute="trailing" secondItem="9f5-cB-0RB" secondAttribute="trailing" constant="20" id="s0N-CJ-ir6" userLabel="Safe Area.trailing = Change kill password.trailing + 20"/>
+                            <constraint firstItem="Vgf-V1-Uob" firstAttribute="top" secondItem="bo0-cT-vgN" secondAttribute="bottom" constant="20" id="y1f-6S-Xx4"/>
+                            <constraint firstItem="9f5-cB-0RB" firstAttribute="top" secondItem="Vgf-V1-Uob" secondAttribute="bottom" constant="10" id="zFw-XN-vOM">
+                                <string key="userLabel">Change kill password.top = NB: On ST25TV tags, the "kill and untraceable mode" features are using the same password (=password 0).bottom + 20</string>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aF1-8G-0aN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1416" y="-569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ST10230_protection_information_3_dark_blue.png" width="200" height="200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

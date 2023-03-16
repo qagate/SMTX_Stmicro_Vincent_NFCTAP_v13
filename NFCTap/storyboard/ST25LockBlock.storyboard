@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lock Block View Controller-->
+        <scene sceneID="4L9-cW-F8B">
+            <objects>
+                <viewController storyboardIdentifier="ST25LockBlockViewController" id="59d-eQ-bCB" customClass="ST25LockBlockViewController" customModule="NFC_Tap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hr5-cU-cAZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="69" translatesAutoresizingMaskIntoConstraints="NO" id="k1K-Fs-Ncs" userLabel="Header Stack View">
+                                <rect key="frame" x="20" y="64" width="374" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lock block features" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkH-rh-hN9">
+                                        <rect key="frame" x="0.0" y="0.0" width="205" height="100"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ST10230_protection_information_3_dark_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="vVz-dG-RrM">
+                                        <rect key="frame" x="274" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="vVz-dG-RrM" secondAttribute="height" multiplier="1:1" id="MKk-gE-e7e"/>
+                                            <constraint firstAttribute="width" constant="100" id="wtq-sf-NnY"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="sC8-3N-egA"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a block number for which you want to see the status or want to lock:" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1m-e6-bmx">
+                                <rect key="frame" x="20" y="184" width="374" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KqC-aV-lYX">
+                                <rect key="frame" x="20" y="245" width="374" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Block number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wot-H6-qnz">
+                                        <rect key="frame" x="0.0" y="10" width="105.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uhs-hl-9wB">
+                                        <rect key="frame" x="274" y="3" width="100" height="34"/>
+                                        <color key="backgroundColor" red="0.26585173610000001" green="0.72095632549999999" blue="0.89027017350000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="6WE-UI-l7D"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <action selector="userTappedBackground:" destination="59d-eQ-bCB" eventType="touchUpOutside" id="QfE-AU-Qjg"/>
+                                            <outlet property="delegate" destination="6mw-FW-won" id="fUN-kf-8wg"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8bh-7N-xPZ"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="102" translatesAutoresizingMaskIntoConstraints="NO" id="j0d-x2-CJh">
+                                <rect key="frame" x="20" y="304" width="374" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Block status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tn-mO-hgk">
+                                        <rect key="frame" x="0.0" y="0.0" width="172" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..........." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgh-Tu-KcR">
+                                        <rect key="frame" x="274" y="0.0" width="100" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="0Ho-dG-hsG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hBn-JB-jjK"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYb-vH-ZqP">
+                                <rect key="frame" x="20" y="415" width="374" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Check block status">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checkBlockStatusButtonAction:" destination="59d-eQ-bCB" eventType="touchUpInside" id="YjR-Uj-J3a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPx-Aj-R2M">
+                                <rect key="frame" x="20" y="469" width="374" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Lock block">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="lockBlockButtonAction:" destination="59d-eQ-bCB" eventType="touchUpInside" id="HOO-Ck-msa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning: The Lock is permanent so locked blocks cannot be written anymore." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mw-FW-won">
+                                <rect key="frame" x="10" y="364" width="394" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EWq-VV-qjc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZYb-vH-ZqP" firstAttribute="top" secondItem="6mw-FW-won" secondAttribute="bottom" constant="10" id="0mK-eo-eE5">
+                                <string key="userLabel">Change kill password.top = NB: On ST25TV tags, the "kill and untraceable mode" features are using the same password (=password 0).bottom + 20</string>
+                            </constraint>
+                            <constraint firstItem="k1K-Fs-Ncs" firstAttribute="leading" secondItem="EWq-VV-qjc" secondAttribute="leading" constant="20" id="2hb-Ks-X8I" userLabel="Header Stack View.leading = Safe Area.leading + 20"/>
+                            <constraint firstItem="EWq-VV-qjc" firstAttribute="trailing" secondItem="j0d-x2-CJh" secondAttribute="trailing" constant="20" id="4LD-eO-a49"/>
+                            <constraint firstItem="EWq-VV-qjc" firstAttribute="trailing" secondItem="ZYb-vH-ZqP" secondAttribute="trailing" constant="20" id="F5M-KF-krT" userLabel="Safe Area.trailing = Change kill password.trailing + 20"/>
+                            <constraint firstItem="KqC-aV-lYX" firstAttribute="top" secondItem="p1m-e6-bmx" secondAttribute="bottom" constant="20" id="GR0-l3-q7U"/>
+                            <constraint firstItem="p1m-e6-bmx" firstAttribute="top" secondItem="k1K-Fs-Ncs" secondAttribute="bottom" constant="20" id="GXy-ao-R8Z"/>
+                            <constraint firstItem="ZYb-vH-ZqP" firstAttribute="leading" secondItem="EWq-VV-qjc" secondAttribute="leading" constant="20" id="JVj-Sf-jRV" userLabel="Change kill password.leading = Safe Area.leading + 20"/>
+                            <constraint firstItem="tPx-Aj-R2M" firstAttribute="leading" secondItem="EWq-VV-qjc" secondAttribute="leading" constant="20" id="L7m-gC-Ac0" userLabel="Lock kill password.leading = Safe Area.leading + 20"/>
+                            <constraint firstItem="j0d-x2-CJh" firstAttribute="leading" secondItem="EWq-VV-qjc" secondAttribute="leading" constant="20" id="Q30-vT-krB"/>
+                            <constraint firstItem="KqC-aV-lYX" firstAttribute="leading" secondItem="EWq-VV-qjc" secondAttribute="leading" constant="20" id="Rgy-0F-PPa"/>
+                            <constraint firstItem="k1K-Fs-Ncs" firstAttribute="top" secondItem="EWq-VV-qjc" secondAttribute="top" constant="20" id="YVh-jI-AkI"/>
+                            <constraint firstItem="EWq-VV-qjc" firstAttribute="trailing" secondItem="6mw-FW-won" secondAttribute="trailing" constant="10" id="YWN-0d-Uc8">
+                                <string key="userLabel">Safe Area.trailing = NB: On ST25TV tags, the "kill and untraceable mode" features are using the same password (=password 0).trailing + 20</string>
+                            </constraint>
+                            <constraint firstItem="EWq-VV-qjc" firstAttribute="trailing" secondItem="p1m-e6-bmx" secondAttribute="trailing" constant="20" id="Z97-Rv-peb"/>
+                            <constraint firstItem="EWq-VV-qjc" firstAttribute="trailing" secondItem="KqC-aV-lYX" secondAttribute="trailing" constant="20" id="ZQU-sZ-Djm"/>
+                            <constraint firstItem="6mw-FW-won" firstAttribute="top" secondItem="4Tn-mO-hgk" secondAttribute="bottom" constant="20" id="byR-x7-9Jt"/>
+                            <constraint firstItem="EWq-VV-qjc" firstAttribute="trailing" secondItem="tPx-Aj-R2M" secondAttribute="trailing" constant="20" id="cOt-w4-OyE" userLabel="Safe Area.trailing = Lock kill password.trailing + 20"/>
+                            <constraint firstItem="j0d-x2-CJh" firstAttribute="trailing" secondItem="KqC-aV-lYX" secondAttribute="trailing" id="emE-og-6ih"/>
+                            <constraint firstAttribute="trailing" secondItem="k1K-Fs-Ncs" secondAttribute="trailing" constant="20" id="feX-sV-Tda" userLabel="trailing = Header Stack View.trailing + 20"/>
+                            <constraint firstItem="6mw-FW-won" firstAttribute="leading" secondItem="EWq-VV-qjc" secondAttribute="leading" constant="10" id="k2o-hP-iJp">
+                                <string key="userLabel">NB: On ST25TV tags, the "kill and untraceable mode" features are using the same password (=password 0).leading = Safe Area.leading + 20</string>
+                            </constraint>
+                            <constraint firstItem="tPx-Aj-R2M" firstAttribute="top" secondItem="ZYb-vH-ZqP" secondAttribute="bottom" constant="20" id="osQ-Rp-rvE"/>
+                            <constraint firstItem="p1m-e6-bmx" firstAttribute="leading" secondItem="EWq-VV-qjc" secondAttribute="leading" constant="20" id="tys-V4-vrt"/>
+                            <constraint firstItem="4Tn-mO-hgk" firstAttribute="top" secondItem="Wot-H6-qnz" secondAttribute="bottom" constant="28.666666666666686" id="uBu-a0-bvO"/>
+                            <constraint firstItem="j0d-x2-CJh" firstAttribute="leading" secondItem="KqC-aV-lYX" secondAttribute="leading" id="wnv-AC-NBB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mBlockNumberField" destination="uhs-hl-9wB" id="qra-4O-fv2"/>
+                        <outlet property="mBlockStatusTextField" destination="Cgh-Tu-KcR" id="bCj-8l-cxY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22D-bq-P2Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1776.8115942028987" y="-839.67391304347836"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ST10230_protection_information_3_dark_blue.png" width="200" height="200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,192 @@
+
+/* Class = "UILabel"; text = "Value : "; ObjectID = "04d-Hs-b6r"; */
+"04d-Hs-b6r.text" = "Value : ";
+
+/* Class = "UITextView"; text = "Paylaod Ascii"; ObjectID = "09j-6A-Qew"; */
+"09j-6A-Qew.text" = "Paylaod Ascii";
+
+/* Class = "UILabel"; text = "Touch Screen to Scan"; ObjectID = "0Wi-ju-jQy"; */
+"0Wi-ju-jQy.text" = "Touch Screen to Scan";
+
+/* Class = "UILabel"; text = "Scanning BLE Device..."; ObjectID = "2Au-O6-Evr"; */
+"2Au-O6-Evr.text" = "Scanning BLE Device...";
+
+/* Class = "UILabel"; text = "Auto Run NDEF Native Application"; ObjectID = "2go-IO-ec8"; */
+"2go-IO-ec8.text" = "Auto Run NFC";
+
+/* Class = "UITabBarItem"; title = "Scan"; ObjectID = "3ZV-7H-LUm"; */
+"3ZV-7H-LUm.title" = "Scan";
+
+/* Class = "UIViewController"; title = "NDEFWebViewController"; ObjectID = "3rh-rr-OIL"; */
+"3rh-rr-OIL.title" = "NDEFWebViewController";
+
+/* Class = "UITableViewController"; title = "AboutViewController"; ObjectID = "5oQ-X7-bi4"; */
+"5oQ-X7-bi4.title" = "AboutViewController";
+
+/* Class = "UILabel"; text = "BATTERY"; ObjectID = "67Y-1I-rF1"; */
+"67Y-1I-rF1.text" = "BATTERY";
+
+/* Class = "UINavigationItem"; title = "NDEF Text"; ObjectID = "6V9-SY-sIo"; */
+"6V9-SY-sIo.title" = "NDEF Text";
+
+/* Class = "UINavigationItem"; title = "NDEF Details"; ObjectID = "6ze-Um-n10"; */
+"6ze-Um-n10.title" = "NDEF Details";
+
+/* Class = "UITableViewSection"; headerTitle = NFC Tap Version 1.1.O"; ObjectID = "7A8-4u-exU"; */
+"7A8-4u-exU.headerTitle" = "NFC Tap Version 3.9";
+
+/* Class = "UIViewController"; title = "NDEFExternalViewController"; ObjectID = "7WF-6E-9At"; */
+"7WF-6E-9At.title" = "NDEFExternalViewController";
+
+/* Class = "UINavigationItem"; title = "NDEF URL "; ObjectID = "995-A9-CWe"; */
+"995-A9-CWe.title" = "NDEF URL ";
+
+/* Class = "UINavigationItem"; title = "NDEF"; ObjectID = "9S5-Gj-Yk1"; */
+"9S5-Gj-Yk1.title" = "NDEF";
+
+/* Class = "UINavigationItem"; title = "NDEF Mime"; ObjectID = "9xf-OF-mqo"; */
+"9xf-OF-mqo.title" = "NDEF Mime";
+
+/* Class = "UITableViewSection"; headerTitle = "App Review"; ObjectID = "9zY-dU-LU9"; */
+"9zY-dU-LU9.headerTitle" = "App Review";
+
+/* Class = "UIButton"; normalTitle = "Stop Scanning"; ObjectID = "A0M-zR-wA1"; */
+"A0M-zR-wA1.normalTitle" = "Stop Scanning";
+
+/* Class = "UINavigationItem"; title = "NDEF Wifi"; ObjectID = "ATs-HY-xu7"; */
+"ATs-HY-xu7.title" = "NDEF Wifi";
+
+/* Class = "UILabel"; text = "RSSI Value"; ObjectID = "Bm6-3g-M2M"; */
+"Bm6-3g-M2M.text" = "RSSI Value";
+
+/* Class = "UITableViewSection"; headerTitle = "NDEF URL Augmented"; ObjectID = "Bvj-5x-pak"; */
+"Bvj-5x-pak.headerTitle" = "NDEF URL Augmented";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "C4W-Hw-YW4"; */
+"C4W-Hw-YW4.title" = "Title";
+
+/* Class = "UILabel"; text = "Review NFCTap"; ObjectID = "CYs-Vf-eBZ"; */
+"CYs-Vf-eBZ.text" = "Review NFCTap";
+
+/* Class = "UITextView"; text = "Paylaod Hex"; ObjectID = "Ej5-Yq-BA0"; */
+"Ej5-Yq-BA0.text" = "Paylaod Hex";
+
+/* Class = "UILabel"; text = "NDEF Mime Type : "; ObjectID = "HCb-qF-fyD"; */
+"HCb-qF-fyD.text" = "NDEF Mime Type : ";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "HRW-4I-i5v"; */
+"HRW-4I-i5v.title" = "About";
+
+/* Class = "UITextView"; text = "NDEF Details"; ObjectID = "IuF-HP-ONe"; */
+"IuF-HP-ONe.text" = "NDEF Details";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "JU4-5E-TN0"; */
+"JU4-5E-TN0.title" = "Settings";
+
+/* Class = "UINavigationItem"; title = "NDEF External"; ObjectID = "Js2-WD-xiN"; */
+"Js2-WD-xiN.title" = "NDEF External";
+
+/* Class = "UILabel"; text = "Run NFC scan on App Launch or Home screen"; ObjectID = "Mab-G6-BHJ"; */
+"Mab-G6-BHJ.text" = "Run NFC scan on App Launch or Home screen";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "OaL-dg-sad"; */
+"OaL-dg-sad.text" = "Title";
+
+/* Class = "UILabel"; text = "RSSI"; ObjectID = "PYQ-wX-KE7"; */
+"PYQ-wX-KE7.text" = "RSSI";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "QQX-hd-FEE"; */
+"QQX-hd-FEE.title" = "About";
+
+/* Class = "UILabel"; text = "NDEF External Type : "; ObjectID = "UBZ-ZW-HjZ"; */
+"UBZ-ZW-HjZ.text" = "NDEF External Type : ";
+
+/* Class = "UILabel"; text = "RSSI"; ObjectID = "VgA-uj-bH2"; */
+"VgA-uj-bH2.text" = "RSSI";
+
+/* Class = "UILabel"; text = "Payload Hex : "; ObjectID = "XUH-OL-4JE"; */
+"XUH-OL-4JE.text" = "Payload Hex : ";
+
+/* Class = "UITableViewSection"; headerTitle = "NDEF Actions"; ObjectID = "Ykd-s5-0SJ"; */
+"Ykd-s5-0SJ.headerTitle" = "NDEF Actions";
+
+/* Class = "UINavigationItem"; title = "NFC Tap"; ObjectID = "a1u-Ki-tSz"; */
+"a1u-Ki-tSz.title" = "NFC Tap";
+
+/* Class = "UIButton"; normalTitle = "Disconnect"; ObjectID = "aQ3-td-lzI"; */
+"aQ3-td-lzI.normalTitle" = "Disconnect";
+
+/* Class = "UILabel"; text = "Payload Ascii : "; ObjectID = "arc-c9-Z8d"; */
+"arc-c9-Z8d.text" = "Payload Ascii : ";
+
+/* Class = "UITextView"; text = "Device Connected and ready to use"; ObjectID = "b86-Ot-NxE"; */
+"b86-Ot-NxE.text" = "Device Connected and ready to use";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "c16-4V-GqM"; */
+"c16-4V-GqM.title" = "Settings";
+
+/* Class = "UITextView"; text = "http://www.st.com/st25"; ObjectID = "dH9-42-JiB"; */
+"dH9-42-JiB.text" = "http://www.st.com/st25";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "dX1-H8-BvT"; */
+"dX1-H8-BvT.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Unknown Device"; ObjectID = "ezv-Il-WDb"; */
+"ezv-Il-WDb.text" = "Unknown Device";
+
+/* Class = "UILabel"; text = "NDEF External Data : "; ObjectID = "gwx-On-7Aa"; */
+"gwx-On-7Aa.text" = "NDEF External Data : ";
+
+/* Class = "UINavigationItem"; title = "BTLE Peripheral"; ObjectID = "gy1-RR-G6I"; */
+"gy1-RR-G6I.title" = "BTLE Peripheral";
+
+/* Class = "UINavigationItem"; title = "BLE Devices"; ObjectID = "hcv-6g-QHv"; */
+"hcv-6g-QHv.title" = "BLE Devices";
+
+/* Class = "UILabel"; text = "Run iOS Application according to NDEF Type"; ObjectID = "iPe-hf-CDX"; */
+"iPe-hf-CDX.text" = "Run NFC at Application Start";
+
+/* Class = "UITableViewSection"; headerTitle = "About ST"; ObjectID = "kKm-Jl-TFb"; */
+"kKm-Jl-TFb.headerTitle" = "About ST";
+
+/* Class = "UITableViewSection"; headerTitle = "Basic Settings"; ObjectID = "kav-OM-pSc"; */
+"kav-OM-pSc.headerTitle" = "Basic Settings";
+
+/* Class = "UINavigationItem"; title = "Saved NDEF"; ObjectID = "lrR-Qx-2JY"; */
+"lrR-Qx-2JY.title" = "Saved NDEF";
+
+/* Class = "UIButton"; normalTitle = "Disconnect"; ObjectID = "m1l-qD-df4"; */
+"m1l-qD-df4.normalTitle" = "Disconnect";
+
+/* Class = "UILabel"; text = "Add Geolocation"; ObjectID = "mtv-If-XrE"; */
+"mtv-If-XrE.text" = "Add Geolocation";
+
+/* Class = "UILabel"; text = "NDEF URL Data : "; ObjectID = "qUb-o6-fLg"; */
+"qUb-o6-fLg.text" = "NDEF URL Data : ";
+
+/* Class = "UIButton"; normalTitle = "Open"; ObjectID = "sH3-nF-30t"; */
+"sH3-nF-30t.normalTitle" = "Open";
+
+/* Class = "UIButton"; normalTitle = "Connect"; ObjectID = "sIZ-S9-vzj"; */
+"sIZ-S9-vzj.normalTitle" = "Connect";
+
+/* Class = "UIViewController"; title = "NDEFMimeViewController"; ObjectID = "slf-ww-yQw"; */
+"slf-ww-yQw.title" = "NDEFMimeViewController";
+
+/* Class = "UILabel"; text = "NDEF Mime Data : "; ObjectID = "sri-Ah-MZT"; */
+"sri-Ah-MZT.text" = "NDEF Mime Data : ";
+
+/* Class = "UILabel"; text = "Unknown Device"; ObjectID = "t6h-Vh-gGw"; */
+"t6h-Vh-gGw.text" = "Unknown Device";
+
+/* Class = "UILabel"; text = "Auto Scan "; ObjectID = "vz3-e1-tfM"; */
+"vz3-e1-tfM.text" = "Auto Scan ";
+
+/* Class = "UITableViewSection"; headerTitle = "Main Features"; ObjectID = "x2e-fR-WTI"; */
+"x2e-fR-WTI.headerTitle" = "Main Features";
+
+/* Class = "UILabel"; text = "Add TimeStamp"; ObjectID = "yJ3-nG-ESD"; */
+"yJ3-nG-ESD.text" = "Add TimeStamp";
+
+/* Class = "UILabel"; text = "Battery Level"; ObjectID = "zkJ-Kc-QSc"; */
+"zkJ-Kc-QSc.text" = "Battery Level";

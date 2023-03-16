@@ -1,0 +1,199 @@
+/* Class" = "UILabel"; text" = "Value : "; ObjectID" = "04d-Hs-b6r"; */
+"04d-Hs-b6r.text" = "值 : ";
+
+/* Class" = "UITextView"; text" = "Paylaod Ascii"; ObjectID" = "09j-6A-Qew"; */
+"09j-6A-Qew.text" = "载荷 Ascii";
+
+/* Class" = "UILabel"; text" = "Touch Screen to Scan"; ObjectID" = "0Wi-ju-jQy"; */
+"0Wi-ju-jQy.text" = "触碰屏幕进行扫描";
+
+/* Class" = "UILabel"; text" = "Scanning BLE Device..."; ObjectID" = "2Au-O6-Evr"; */
+"2Au-O6-Evr.text" = "扫描BLE设备...";
+
+/* Class" = "UILabel"; text" = "Auto Run NDEF Native Application"; ObjectID" = "2go-IO-ec8"; */
+"2go-IO-ec8.text" = "自动运行NDEF应用";
+
+/* Class" = "UITabBarItem"; title" = "Scan"; ObjectID" = "3ZV-7H-LUm"; */
+"3ZV-7H-LUm.title" = "扫描";
+
+/* Class" = "UIViewController"; title" = "NDEFWebViewController"; ObjectID" = "3rh-rr-OIL"; */
+"3rh-rr-OIL.title" = "NDEF网页浏览控制器";
+
+/* Class" = "UITableViewController"; title" = "AboutViewController"; ObjectID" = "5oQ-X7-bi4"; */
+"5oQ-X7-bi4.title" = "关于浏览控制器";
+
+/* Class" = "UILabel"; text" = "BATTERY"; ObjectID" = "67Y-1I-rF1"; */
+"67Y-1I-rF1.text" = "电池";
+
+/* Class" = "UINavigationItem"; title" = "NDEF Text"; ObjectID" = "6V9-SY-sIo"; */
+"6V9-SY-sIo.title" = "NDEF文本";
+
+/* Class" = "UINavigationItem"; title" = "NDEF Details"; ObjectID" = "6ze-Um-n10"; */
+"6ze-Um-n10.title" = "NDEF详情";
+
+/* Class" = "UITableViewSection"; headerTitle" = "NFC Tap Version 1.1.O"; ObjectID" = "7A8-4u-exU"; */
+"7A8-4u-exU.headerTitle" = "NFC Tap 5.0";
+
+/* Class" = "UIViewController"; title" = "NDEFExternalViewController"; ObjectID" = "7WF-6E-9At"; */
+"7WF-6E-9At.title" = "NDEF外部浏览控制器r";
+
+/* Class" = "UINavigationItem"; title" = "NDEF URL "; ObjectID" = "995-A9-CWe"; */
+"995-A9-CWe.title" = "NDEF网址 类型";
+
+/* Class" = "UINavigationItem"; title" = "NDEF"; ObjectID" = "9S5-Gj-Yk1"; */
+"9S5-Gj-Yk1.title" = "NDEF";
+
+/* Class" = "UINavigationItem"; title" = "NDEF Mime"; ObjectID" = "9xf-OF-mqo"; */
+"9xf-OF-mqo.title" = "NDEF 多用途互联网邮件扩展类型";
+
+/* Class" = "UITableViewSection"; headerTitle" = "App Review"; ObjectID" = "9zY-dU-LU9"; */
+"9zY-dU-LU9.headerTitle" = "APP评分";
+
+/* Class" = "UIButton"; normalTitle" = "Stop Scanning"; ObjectID" = "A0M-zR-wA1"; */
+"A0M-zR-wA1.normalTitle" = "停止扫描";
+
+/* Class" = "UINavigationItem"; title" = "NDEF Wifi"; ObjectID" = "ATs-HY-xu7"; */
+"ATs-HY-xu7.title" = "NDEF Wifi";
+
+/* Class" = "UILabel"; text" = "RSSI Value"; ObjectID" = "Bm6-3g-M2M"; */
+"Bm6-3g-M2M.text" = "RSSI 值";
+
+/* Class" = "UITableViewSection"; headerTitle" = "NDEF URL Augmented"; ObjectID" = "Bvj-5x-pak"; */
+"Bvj-5x-pak.headerTitle" = "NDEF URL 补充";
+
+/* Class" = "UINavigationItem"; title" = "Title"; ObjectID" = "C4W-Hw-YW4"; */
+"C4W-Hw-YW4.title" = "标题";
+
+/* Class" = "UILabel"; text" = "Review NFCTap"; ObjectID" = "CYs-Vf-eBZ"; */
+"CYs-Vf-eBZ.text" = "给NFCTap评分";
+
+/* Class" = "UITextView"; text" = "Paylaod Hex"; ObjectID" = "Ej5-Yq-BA0"; */
+"Ej5-Yq-BA0.text" = "载荷 Hex";
+
+/* Class" = "UILabel"; text" = "NDEF Mime Type : "; ObjectID" = "HCb-qF-fyD"; */
+"HCb-qF-fyD.text" = "NDEF Mime类型 : ";
+
+/* Class" = "UINavigationItem"; title" = "About"; ObjectID" = "HRW-4I-i5v"; */
+"HRW-4I-i5v.title" = "关于";
+
+/* Class" = "UITextView"; text" = "NDEF Details"; ObjectID" = "IuF-HP-ONe"; */
+"IuF-HP-ONe.text" = "NDEF详情";
+
+/* Class" = "UITabBarItem"; title" = "Settings"; ObjectID" = "JU4-5E-TN0"; */
+"JU4-5E-TN0.title" = "设置";
+
+/* Class" = "UINavigationItem"; title" = "NDEF External"; ObjectID" = "Js2-WD-xiN"; */
+"Js2-WD-xiN.title" = "NDEF 外部类型";
+
+/* Class" = "UILabel"; text" = "Run NFC scan on App Launch or Home screen"; ObjectID" = "Mab-G6-BHJ"; */
+"Mab-G6-BHJ.text" = "运行NFC扫描 进行app启动或主屏幕";
+
+/* Class" = "UILabel"; text" = "Title"; ObjectID" = "OaL-dg-sad"; */
+"OaL-dg-sad.text" = "标题Title";
+
+/* Class" = "UILabel"; text" = "RSSI"; ObjectID" = "PYQ-wX-KE7"; */
+"PYQ-wX-KE7.text" = "RSSI";
+
+/* Class" = "UITabBarItem"; title" = "About"; ObjectID" = "QQX-hd-FEE"; */
+"QQX-hd-FEE.title" = "关于";
+
+/* Class" = "UILabel"; text" = "NDEF External Type : "; ObjectID" = "UBZ-ZW-HjZ"; */
+"UBZ-ZW-HjZ.text" = "NDEF External 类型 : ";
+
+/* Class" = "UILabel"; text" = "RSSI"; ObjectID" = "VgA-uj-bH2"; */
+"VgA-uj-bH2.text" = "RSSI";
+
+/* Class" = "UILabel"; text" = "Payload Hex : "; ObjectID" = "XUH-OL-4JE"; */
+"XUH-OL-4JE.text" = "载荷 Hex : ";
+
+/* Class" = "UITableViewSection"; headerTitle" = "NDEF Actions"; ObjectID" = "Ykd-s5-0SJ"; */
+"Ykd-s5-0SJ.headerTitle" = "NDEF 事件";
+
+/* Class" = "UINavigationItem"; title" = "NFC Tap"; ObjectID" = "a1u-Ki-tSz"; */
+"a1u-Ki-tSz.title" = "NFC Tap";
+
+/* Class" = "UIButton"; normalTitle" = "Disconnect"; ObjectID" = "aQ3-td-lzI"; */
+"aQ3-td-lzI.normalTitle" = "断开";
+
+/* Class" = "UILabel"; text" = "Payload Ascii : "; ObjectID" = "arc-c9-Z8d"; */
+"arc-c9-Z8d.text" = "载荷 Ascii : ";
+
+/* Class" = "UITextView"; text" = "Device Connected and ready to use"; ObjectID" = "b86-Ot-NxE"; */
+"b86-Ot-NxE.text" = "设备已连接并准备好";
+
+/* Class" = "UINavigationItem"; title" = "Settings"; ObjectID" = "c16-4V-GqM"; */
+"c16-4V-GqM.title" = "设置";
+
+/* Class" = "UITextView"; text" = "http://www.st.com/st25"; ObjectID" = "dH9-42-JiB"; */
+"dH9-42-JiB.text" = "http://www.st.com/st25";
+
+/* Class" = "UILabel"; text" = "Subtitle"; ObjectID" = "dX1-H8-BvT"; */
+"dX1-H8-BvT.text" = "子标题";
+
+/* Class" = "UILabel"; text" = "Unknown Device"; ObjectID" = "ezv-Il-WDb"; */
+"ezv-Il-WDb.text" = "未知设备";
+
+/* Class" = "UILabel"; text" = "NDEF External Data : "; ObjectID" = "gwx-On-7Aa"; */
+"gwx-On-7Aa.text" = "NDEF External数据 : ";
+
+/* Class" = "UINavigationItem"; title" = "BTLE Peripheral"; ObjectID" = "gy1-RR-G6I"; */
+"gy1-RR-G6I.title" = "BTLE 外设";
+
+/* Class" = "UINavigationItem"; title" = "BLE Devices"; ObjectID" = "hcv-6g-QHv"; */
+"hcv-6g-QHv.title" = "BLE设备";
+
+/* Class" = "UILabel"; text" = "Run iOS Application according to NDEF Type"; ObjectID" = "iPe-hf-CDX"; */
+"iPe-hf-CDX.text" = "根据NDEF类型运行iOS应用";
+
+/* Class" = "UITableViewSection"; headerTitle" = "About ST"; ObjectID" = "kKm-Jl-TFb"; */
+"kKm-Jl-TFb.headerTitle" = "关于ST";
+
+/* Class" = "UITableViewSection"; headerTitle" = "Basic Settings"; ObjectID" = "kav-OM-pSc"; */
+"kav-OM-pSc.headerTitle" = "基本设置";
+
+/* Class" = "UINavigationItem"; title" = "Saved NDEF"; ObjectID" = "lrR-Qx-2JY"; */
+"lrR-Qx-2JY.title" = "保存NDEF";
+
+/* Class" = "UIButton"; normalTitle" = "Disconnect"; ObjectID" = "m1l-qD-df4"; */
+"m1l-qD-df4.normalTitle" = "断开";
+
+/* Class" = "UILabel"; text" = "Add Geolocation"; ObjectID" = "mtv-If-XrE"; */
+"mtv-If-XrE.text" = "增加地理位置";
+
+/* Class" = "UILabel"; text" = "NDEF URL Data : "; ObjectID" = "qUb-o6-fLg"; */
+"qUb-o6-fLg.text" = "NDEF URL数据 : ";
+
+/* Class" = "UIButton"; normalTitle" = "Open"; ObjectID" = "sH3-nF-30t"; */
+"sH3-nF-30t.normalTitle" = "打开";
+
+/* Class" = "UIButton"; normalTitle" = "Connect"; ObjectID" = "sIZ-S9-vzj"; */
+"sIZ-S9-vzj.normalTitle" = "连接";
+
+/* Class" = "UIViewController"; title" = "NDEFMimeViewController"; ObjectID" = "slf-ww-yQw"; */
+"slf-ww-yQw.title" = "NDEFMime浏览控制器";
+
+/* Class" = "UILabel"; text" = "NDEF Mime Data : "; ObjectID" = "sri-Ah-MZT"; */
+"sri-Ah-MZT.text" = "NDEF Mime数据 : ";
+
+/* Class" = "UILabel"; text" = "Unknown Device"; ObjectID" = "t6h-Vh-gGw"; */
+"t6h-Vh-gGw.text" = "未知设备";
+
+/* Class" = "UILabel"; text" = "Auto Scan "; ObjectID" = "vz3-e1-tfM"; */
+"vz3-e1-tfM.text" = "自动扫描 ";
+
+/* Class" = "UITableViewSection"; headerTitle" = "Main Features"; ObjectID" = "x2e-fR-WTI"; */
+"x2e-fR-WTI.headerTitle" = "主特点";
+
+/* Class" = "UILabel"; text" = "Add TimeStamp"; ObjectID" = "yJ3-nG-ESD"; */
+"yJ3-nG-ESD.text" = "增加时间标记";
+
+/* Class" = "UILabel"; text" = "Battery Level"; ObjectID" = "zkJ-Kc-QSc"; */
+"zkJ-Kc-QSc.text" = "电池电量";
+
+/* Class = "UILabel"; text = "Read multiple NFC tags"; ObjectID = "BWJ-Hq-eC8"; */
+"BWJ-Hq-eC8.text" = "读多个NFC标签";
+
+/* Class = "UILabel"; text = "Multi Tag "; ObjectID = "H4u-5H-Km3"; */
+"H4u-5H-Km3.text" = "多个标签 ";
+
+

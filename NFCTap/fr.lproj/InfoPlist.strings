@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  NFCTap 
+
+  Created by STMICROELECTRONICS on 26/02/2018.
+  Copyright © 2018 STMicroelectronics. All rights reserved.
+*/
+"NFCReaderUsageDescription" = "Scan and Parse NFC Tags";
+"NSBluetoothAlwaysUsageDescription" = "BlueTooth Pairing Demo For ST25DV-Discovery Kit";
+"NSBluetoothPeripheralUsageDescription" = "BlueTooth Pairing Demo For ST25DV-Discovery Kit";
+"NSContactsUsageDescription" = "Import Contact stored in NFC Tags";
+"NSHumanReadableCopyright" = "All rights reserved © 2017 STMicroelectronics";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "App needs access to location";
+"NSLocationAlwaysUsageDescription" = "App needs access to location";
+"NSLocationUsageDescription" = "App needs access to location";
+"NSLocationWhenInUseUsageDescription" = "App needs access to location";

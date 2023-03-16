@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Twp-T6-Xho">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="MT2-4T-jjw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WFs-kA-78Z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="2" title="Home" image="Subbrand_ST25_50x50.png" id="3ZV-7H-LUm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oqy-bB-WiB">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.12549019610000001" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Twp-T6-Xho" kind="relationship" relationship="rootViewController" id="kfG-Pr-83V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OBm-FP-xym" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.8000000000002" y="381.85907046476763"/>
+        </scene>
+        <!--NFC Tap-->
+        <scene sceneID="zPf-63-k8p">
+            <objects>
+                <viewController restorationIdentifier="ST25Home" storyboardIdentifier="ST25Home" id="Twp-T6-Xho" customClass="ST25Home" customModule="NFC_Tap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2LN-DN-hu5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uc6-L1-txN">
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlL-se-8Vg">
+                                        <rect key="frame" x="8" y="428" width="359" height="63"/>
+                                        <color key="backgroundColor" red="0.01176470588" green="0.13725490200000001" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="fHv-da-a5z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <size key="titleShadowOffset" width="30" height="30"/>
+                                        <state key="normal" title="Read Tag">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="thin"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tapReadTag:" destination="Twp-T6-Xho" eventType="touchUpInside" id="eYp-mj-f5q"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNO-U3-rPJ">
+                                        <rect key="frame" x="8" y="516" width="359" height="63"/>
+                                        <color key="backgroundColor" red="0.01176470588" green="0.13725490200000001" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="Pay-cs-U6u"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <size key="titleShadowOffset" width="30" height="30"/>
+                                        <state key="normal" title="Read NDEF ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="thin"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="f1m-Zv-vIr" kind="presentation" id="8ho-S5-G2Z"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dynamic-NFC-Tag_white" translatesAutoresizingMaskIntoConstraints="NO" id="o2q-EW-Lj2">
+                                        <rect key="frame" x="27" y="434.66666666666663" width="50" height="50"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="M2w-B7-5je"/>
+                                            <constraint firstAttribute="height" constant="50" id="aJv-GE-y6X"/>
+                                            <constraint firstAttribute="width" constant="50" id="fia-xT-V7X"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="xnq-vm-xm1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notepad_pen_white" translatesAutoresizingMaskIntoConstraints="NO" id="gIe-e8-saY">
+                                        <rect key="frame" x="36" y="522.66666666666663" width="50" height="50"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="KX4-lC-SaO"/>
+                                            <constraint firstAttribute="height" constant="50" id="SWB-4V-UyC"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="dRE-ig-vXD"/>
+                                            <constraint firstAttribute="width" constant="50" id="uAt-U5-eXq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Phone st25 light blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="NlO-54-4f7">
+                                        <rect key="frame" x="102" y="38" width="265" height="358"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="265" id="GQa-YB-pbk"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="sNO-U3-rPJ" firstAttribute="width" secondItem="KlL-se-8Vg" secondAttribute="width" id="2oe-zv-AcG"/>
+                                    <constraint firstItem="KlL-se-8Vg" firstAttribute="top" secondItem="NlO-54-4f7" secondAttribute="bottom" constant="32" id="7kW-IF-V1c"/>
+                                    <constraint firstAttribute="bottom" secondItem="KlL-se-8Vg" secondAttribute="bottom" constant="150" id="9sP-fT-Ae4"/>
+                                    <constraint firstItem="gIe-e8-saY" firstAttribute="height" secondItem="o2q-EW-Lj2" secondAttribute="height" id="SM0-NR-fbH"/>
+                                    <constraint firstItem="o2q-EW-Lj2" firstAttribute="leading" secondItem="Uc6-L1-txN" secondAttribute="leading" constant="27" id="Sbo-eo-8cE"/>
+                                    <constraint firstItem="NlO-54-4f7" firstAttribute="top" secondItem="Uc6-L1-txN" secondAttribute="top" constant="38" id="SuM-OZ-vf3"/>
+                                    <constraint firstItem="sNO-U3-rPJ" firstAttribute="leading" secondItem="KlL-se-8Vg" secondAttribute="leading" id="XXK-3u-b0u"/>
+                                    <constraint firstItem="KlL-se-8Vg" firstAttribute="leading" secondItem="Uc6-L1-txN" secondAttribute="leadingMargin" id="Z2D-d5-hJL"/>
+                                    <constraint firstItem="gIe-e8-saY" firstAttribute="width" secondItem="o2q-EW-Lj2" secondAttribute="width" id="aox-LT-JEN"/>
+                                    <constraint firstItem="NlO-54-4f7" firstAttribute="trailing" secondItem="KlL-se-8Vg" secondAttribute="trailing" id="e9l-4P-aiE"/>
+                                    <constraint firstItem="sNO-U3-rPJ" firstAttribute="height" secondItem="KlL-se-8Vg" secondAttribute="height" id="hCJ-pW-VTM"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sNO-U3-rPJ" secondAttribute="trailing" constant="8" id="iF4-3I-asA"/>
+                                    <constraint firstItem="sNO-U3-rPJ" firstAttribute="leading" secondItem="gIe-e8-saY" secondAttribute="trailing" constant="-78" id="iZc-2D-m40"/>
+                                    <constraint firstItem="KlL-se-8Vg" firstAttribute="centerY" secondItem="o2q-EW-Lj2" secondAttribute="centerY" id="poD-tm-05k"/>
+                                    <constraint firstItem="KlL-se-8Vg" firstAttribute="trailing" secondItem="Uc6-L1-txN" secondAttribute="trailingMargin" id="shz-SC-Gg8"/>
+                                    <constraint firstItem="sNO-U3-rPJ" firstAttribute="centerY" secondItem="gIe-e8-saY" secondAttribute="centerY" id="xEj-uf-5Ig"/>
+                                    <constraint firstItem="sNO-U3-rPJ" firstAttribute="top" secondItem="KlL-se-8Vg" secondAttribute="bottom" constant="25" id="zFI-zH-DWx"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RuQ-Ay-wDH"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Uc6-L1-txN" firstAttribute="leading" secondItem="RuQ-Ay-wDH" secondAttribute="leading" id="3MF-Bh-lNi"/>
+                            <constraint firstItem="Uc6-L1-txN" firstAttribute="top" secondItem="RuQ-Ay-wDH" secondAttribute="top" id="bsF-xw-hZo"/>
+                            <constraint firstItem="Uc6-L1-txN" firstAttribute="centerX" secondItem="2LN-DN-hu5" secondAttribute="centerX" id="eOi-os-FYA"/>
+                            <constraint firstItem="Uc6-L1-txN" firstAttribute="bottom" secondItem="RuQ-Ay-wDH" secondAttribute="bottom" id="qZg-yf-G5w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="NFC Tap" id="Xpw-EL-Bur"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIB-id-CQY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3120.8000000000002" y="380.95952023988008"/>
+        </scene>
+        <!--ST25AreaManagement-->
+        <scene sceneID="Npo-72-rtG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ST25AreaManagement" id="f1m-Zv-vIr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="w04-au-xmJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wcr-Fo-kZS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4015" y="320"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Dynamic-NFC-Tag_white" width="200" height="200"/>
+        <image name="Phone st25 light blue.png" width="345.75" height="573"/>
+        <image name="Subbrand_ST25_50x50.png" width="24" height="24"/>
+        <image name="notepad_pen_white" width="200" height="200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

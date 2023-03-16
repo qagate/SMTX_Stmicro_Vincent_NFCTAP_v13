@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>BlueTooth Pairing Demo For ST25DV-Discovery Kit</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>BlueTooth Pairing Demo For ST25DV-Discovery Kit</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>All rights reserved © 2017 STMicroelectronics</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleVersion</key>
+	<string>2.1.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2.0</string>
+	<key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+	<array>
+		<string>D2760000850101</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>NFCReaderUsageDescription</key>
+	<string>Scan and Parse NFC Tags</string>
+	<key>NSLocationUsageDescription</key>
+	<string>App needs access to location</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>Icon-60</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>nfctap</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>com.st.mmy.st25nfc</string>
+		</dict>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string></string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>NFC Tap</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Import Contact stored in NFC Tags</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>App needs access to location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>App needs access to location</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>App needs access to location</string>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UISupportsDocumentBrowser</key>
+	<true/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>FW Binary File</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.st.st25nfc.fw</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>bin</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

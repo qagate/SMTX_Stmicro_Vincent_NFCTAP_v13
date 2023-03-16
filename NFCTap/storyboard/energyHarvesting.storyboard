@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18091"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Energy Harvesting-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ST25EnergyHarverstingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ST25EnergyHarverstingViewController" customModule="NFC_Tap" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hit image to start Energy Harvesting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gON-5J-NQZ">
+                                <rect key="frame" x="69" y="295" width="276" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="1su-In-8gd"/>
+                                    <constraint firstAttribute="height" constant="20.5" id="Klc-36-Bro"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uW-lN-174">
+                                <rect key="frame" x="108" y="345" width="198" height="206"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="fEV-Hx-STB"/>
+                                    <constraint firstAttribute="height" constant="206" id="suI-LR-new"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button" image="RS1421_mobile_nfc_light_blue.png"/>
+                                <connections>
+                                    <action selector="startEnergyHarvesting:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="lHk-mK-93u"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Js9-nb-zg2">
+                                <rect key="frame" x="28.5" y="109" width="357" height="65.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="m9O-lS-qV6">
+                                        <rect key="frame" x="0.0" y="0.0" width="357" height="34"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timeout (seconds) :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFb-Zg-YmG">
+                                                <rect key="frame" x="0.0" y="0.0" width="157" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="157" id="uYr-9u-xKz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="60" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Cb-4A-NW1">
+                                                <rect key="frame" x="207" y="0.0" width="150" height="34"/>
+                                                <color key="backgroundColor" red="0.22352941179999999" green="0.66274509800000003" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="H1O-cY-qa5"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="nGg-uU-3kV"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Timeout value is 60s " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5C-gG-y3O">
+                                        <rect key="frame" x="0.0" y="45" width="357" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="357" id="8Oy-uS-I3d"/>
+                                    <constraint firstAttribute="height" constant="65.5" id="rq3-ti-hgx"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Js9-nb-zg2" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="21" id="87V-NE-cuA"/>
+                            <constraint firstItem="8uW-lN-174" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="fsX-7o-zk2"/>
+                            <constraint firstItem="Js9-nb-zg2" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="hMd-bZ-ikc"/>
+                            <constraint firstItem="gON-5J-NQZ" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="ngu-zy-cFI"/>
+                            <constraint firstItem="gON-5J-NQZ" firstAttribute="top" secondItem="Js9-nb-zg2" secondAttribute="bottom" constant="120.5" id="qZW-85-fUH"/>
+                            <constraint firstItem="8uW-lN-174" firstAttribute="top" secondItem="gON-5J-NQZ" secondAttribute="bottom" constant="29.5" id="qds-dq-wVM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Energy Harvesting" id="MBZ-XX-vJR"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="timeoutTextField" destination="9Cb-4A-NW1" id="YKx-do-pfi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.97101449275374" y="70.982142857142847"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="D45-oa-bzy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y5h-ir-Umz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AvJ-j9-Klq">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.01176470588" green="0.13725490200000001" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="aDb-FV-zu3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Be9-Yg-NI7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="70.982142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RS1421_mobile_nfc_light_blue.png" width="200" height="200"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

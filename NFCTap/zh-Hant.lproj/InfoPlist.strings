@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  NFCTap 
+
+  Created by STMICROELECTRONICS on 26/02/2018.
+  Copyright © 2018 STMicroelectronics. All rights reserved.
+*/
+"NFCReaderUsageDescription" = "扫描并识别NFC标签";
+"NSBluetoothPeripheralUsageDescription" = "蓝牙配对演示";
+"NSBluetoothAlwaysUsageDescription" = "蓝牙配对演示";
+"NSContactsUsageDescription" = "导出NFC标签内的联系方式";
+"NSHumanReadableCopyright" = "All rights reserved © 2017 STMicroelectronics";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "App需要访问您的位置";
+"NSLocationAlwaysUsageDescription" = "App需要访问您的位置";
+"NSLocationUsageDescription" = "App需要访问您的位置";
+"NSLocationWhenInUseUsageDescription" = "App需要访问您的位置";
+
