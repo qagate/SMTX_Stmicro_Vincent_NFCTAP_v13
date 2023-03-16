@@ -676,7 +676,7 @@
 		1CDC2156236833BD00812F1C /* ST25DVTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST25DVTag.swift; sourceTree = "<group>"; };
 		220387EA29969EA200D84D62 /* ST25DVTransferTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ST25DVTransferTask.m; sourceTree = "<group>"; };
 		220387EB29969EA200D84D62 /* ST25DVTransferTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ST25DVTransferTask.h; sourceTree = "<group>"; };
-		2272522228F7E97200138D07 /* NFC Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFC Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2272522228F7E97200138D07 /* NFC Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "NFC Tap.app"; path = "/Users/arathiakhillal/Documents/16March23/SMTX_Installer_iOS/SMTX_Stmicro_Vincent_NFCTAP_v13/build/Debug-iphoneos/NFC Tap.app"; sourceTree = "<absolute>"; };
 		A121AAA81FB1F0E800531AE7 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		A121AAAA1FB9A35700531AE7 /* RS228_WLAN_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RS228_WLAN_pink.png; sourceTree = "<group>"; };
 		A121AAAB1FB9A35800531AE7 /* RS1078_wireless_light_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RS1078_wireless_light_blue.png; sourceTree = "<group>"; };
@@ -1975,7 +1975,6 @@
 				A1280A7A1F8FB166006E8427 /* NFCTap */,
 				A1ED98801EE6E5D100D3F750 /* Frameworks */,
 				DA10C54823FBD0EA0022BA16 /* Recovered References */,
-				2272522228F7E97200138D07 /* NFC Tap.app */,
 			);
 			sourceTree = "<group>";
 		};
