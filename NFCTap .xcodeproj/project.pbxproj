@@ -76,6 +76,9 @@
 		1CDC214D23632FC100812F1C /* ST25UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC214B23632F5F00812F1C /* ST25UIViewController.swift */; };
 		1CDC21522366EA0C00812F1C /* ST25DVFirmwareUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC21512366EA0C00812F1C /* ST25DVFirmwareUpdateViewController.swift */; };
 		1CDC21582368349100812F1C /* ST25DVTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC2156236833BD00812F1C /* ST25DVTag.swift */; };
+		1D1C1AEA29CA1A3F008C25B6 /* ST25NFCFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C1AE929CA1A3F008C25B6 /* ST25NFCFramework.docc */; };
+		1D1C1AEB29CA1A3F008C25B6 /* ST25NFCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1C1AE829CA1A3F008C25B6 /* ST25NFCFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1C1AEF29CA1A78008C25B6 /* NFCTapLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B7B7B29C9D5F90041B311 /* NFCTapLib.swift */; };
 		220387EC29969EA200D84D62 /* ST25DVTransferTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 220387EA29969EA200D84D62 /* ST25DVTransferTask.m */; };
 		A121AAA91FB1F0E900531AE7 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A121AAA81FB1F0E800531AE7 /* NetworkExtension.framework */; };
 		A121AAB51FB9A79900531AE7 /* NDEFWifiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121AAB41FB9A79900531AE7 /* NDEFWifiViewController.swift */; };
@@ -674,9 +677,13 @@
 		1CDC214B23632F5F00812F1C /* ST25UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST25UIViewController.swift; sourceTree = "<group>"; };
 		1CDC21512366EA0C00812F1C /* ST25DVFirmwareUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST25DVFirmwareUpdateViewController.swift; sourceTree = "<group>"; };
 		1CDC2156236833BD00812F1C /* ST25DVTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST25DVTag.swift; sourceTree = "<group>"; };
+		1D1B7B7729C9B8DC0041B311 /* NFC Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFC Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1B7B7B29C9D5F90041B311 /* NFCTapLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTapLib.swift; sourceTree = "<group>"; };
+		1D1C1AE629CA1A3F008C25B6 /* ST25NFCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ST25NFCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1C1AE829CA1A3F008C25B6 /* ST25NFCFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ST25NFCFramework.h; sourceTree = "<group>"; };
+		1D1C1AE929CA1A3F008C25B6 /* ST25NFCFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ST25NFCFramework.docc; sourceTree = "<group>"; };
 		220387EA29969EA200D84D62 /* ST25DVTransferTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ST25DVTransferTask.m; sourceTree = "<group>"; };
 		220387EB29969EA200D84D62 /* ST25DVTransferTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ST25DVTransferTask.h; sourceTree = "<group>"; };
-		2272522228F7E97200138D07 /* NFC Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "NFC Tap.app"; path = "/Users/arathiakhillal/Documents/16March23/SMTX_Installer_iOS/SMTX_Stmicro_Vincent_NFCTAP_v13/build/Debug-iphoneos/NFC Tap.app"; sourceTree = "<absolute>"; };
 		A121AAA81FB1F0E800531AE7 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		A121AAAA1FB9A35700531AE7 /* RS228_WLAN_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RS228_WLAN_pink.png; sourceTree = "<group>"; };
 		A121AAAB1FB9A35800531AE7 /* RS1078_wireless_light_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RS1078_wireless_light_blue.png; sourceTree = "<group>"; };
@@ -1548,6 +1555,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D1C1AE329CA1A3F008C25B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1FE891C1D11A5EC00B793C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1585,6 +1599,15 @@
 			path = Fw;
 			sourceTree = "<group>";
 		};
+		1D1C1AE729CA1A3F008C25B6 /* ST25NFCFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1D1C1AE829CA1A3F008C25B6 /* ST25NFCFramework.h */,
+				1D1C1AE929CA1A3F008C25B6 /* ST25NFCFramework.docc */,
+			);
+			path = ST25NFCFramework;
+			sourceTree = "<group>";
+		};
 		220387E729969EA200D84D62 /* st25nfc */ = {
 			isa = PBXGroup;
 			children = (
@@ -1614,6 +1637,7 @@
 			isa = PBXGroup;
 			children = (
 				DACDA99723707A9700932F1C /* OpenSSL-for-iOS-Bridging-Header.h */,
+				1D1B7B7B29C9D5F90041B311 /* NFCTapLib.swift */,
 				DACDA9A92372D41000932F1C /* SwiftTryCatch */,
 				DACDA93C2370787100932F1C /* openssl */,
 				DAEBD11D2362D6F8008E062A /* storyboard */,
@@ -1973,8 +1997,11 @@
 				A1D32194204451B5002CE618 /* InfoPlist.strings */,
 				A150AF212020D16D00E93327 /* Localizable.strings */,
 				A1280A7A1F8FB166006E8427 /* NFCTap */,
+				1D1C1AE729CA1A3F008C25B6 /* ST25NFCFramework */,
 				A1ED98801EE6E5D100D3F750 /* Frameworks */,
 				DA10C54823FBD0EA0022BA16 /* Recovered References */,
+				1D1B7B7729C9B8DC0041B311 /* NFC Tap.app */,
+				1D1C1AE629CA1A3F008C25B6 /* ST25NFCFramework.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2921,7 +2948,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1D1C1AE129CA1A3F008C25B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1C1AEB29CA1A3F008C25B6 /* ST25NFCFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		1D1C1AE529CA1A3F008C25B6 /* ST25NFCFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1C1AEE29CA1A3F008C25B6 /* Build configuration list for PBXNativeTarget "ST25NFCFramework" */;
+			buildPhases = (
+				1D1C1AE129CA1A3F008C25B6 /* Headers */,
+				1D1C1AE229CA1A3F008C25B6 /* Sources */,
+				1D1C1AE329CA1A3F008C25B6 /* Frameworks */,
+				1D1C1AE429CA1A3F008C25B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ST25NFCFramework;
+			productName = ST25NFCFramework;
+			productReference = 1D1C1AE629CA1A3F008C25B6 /* ST25NFCFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A1FE891E1D11A5EC00B793C9 /* ST25NFCApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1FE89471D11A5EC00B793C9 /* Build configuration list for PBXNativeTarget "ST25NFCApp" */;
@@ -2937,7 +2993,7 @@
 			);
 			name = ST25NFCApp;
 			productName = ST25NFCApp;
-			productReference = 2272522228F7E97200138D07 /* NFC Tap.app */;
+			productReference = 1D1B7B7729C9B8DC0041B311 /* NFC Tap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2950,6 +3006,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = STMicroelectronics;
 				TargetAttributes = {
+					1D1C1AE529CA1A3F008C25B6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					A1FE891E1D11A5EC00B793C9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0900;
@@ -3002,11 +3061,19 @@
 			projectRoot = "";
 			targets = (
 				A1FE891E1D11A5EC00B793C9 /* ST25NFCApp */,
+				1D1C1AE529CA1A3F008C25B6 /* ST25NFCFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1D1C1AE429CA1A3F008C25B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1FE891D1D11A5EC00B793C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3162,6 +3229,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1D1C1AE229CA1A3F008C25B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1C1AEA29CA1A3F008C25B6 /* ST25NFCFramework.docc in Sources */,
+				1D1C1AEF29CA1A78008C25B6 /* NFCTapLib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1FE891B1D11A5EC00B793C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3639,6 +3715,92 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1D1C1AEC29CA1A3F008C25B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5CDDKPU3XA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 STMicroelectronics. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprue.ST25NFCFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D1C1AED29CA1A3F008C25B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5CDDKPU3XA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 STMicroelectronics. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprue.ST25NFCFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A1FE89451D11A5EC00B793C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3692,7 +3854,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				J2OBJC_HOME = "/Users/stmicroelectronics/vincent/j2objc-2.0.3/";
+				J2OBJC_HOME = "$(SRCROOT)/NFCTap/j2objc-2.8";
 				LIBRARY_SEARCH_PATHS = "${J2OBJC_HOME}/lib";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3702,7 +3864,7 @@
 				);
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stmicroelectronics/vincent⁩/NFCTap_V2.1.0⁩/⁨NFCTap⁩/ST25NFCApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/NFCTap/ST25NFCApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				USER_HEADER_SEARCH_PATHS = (
@@ -3761,7 +3923,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INSTALL_GROUP = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				J2OBJC_HOME = "/Users/stmicroelectronics/vincent/j2objc-2.0.3/";
+				J2OBJC_HOME = "$(SRCROOT)/NFCTap/j2objc-2.8";
 				LIBRARY_SEARCH_PATHS = "${J2OBJC_HOME}/lib";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = (
@@ -3770,7 +3932,7 @@
 				);
 				SDKROOT = iphoneos;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stmicroelectronics/Downloads/ST25NFCiOs/ST25NFCApp/ST25NFCApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/NFCTap/ST25NFCApp-Bridging-Header.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				USER_HEADER_SEARCH_PATHS = "$(J2OBJC_HOME)/include/**";
 				VALIDATE_PRODUCT = YES;
@@ -3812,6 +3974,11 @@
 					"$(PROJECT_DIR)/NFCTap/openssl/**",
 					"$(SDKROOT)/usr/lib/swift",
 					"$(PROJECT_DIR)/NFCTap/st25sdklib",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/watchos",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/appletvos",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/maccatalyst",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/macosx",
 				);
 				MARKETING_VERSION = 13.0;
 				NEW_SETTING = "";
@@ -3871,6 +4038,11 @@
 					"$(PROJECT_DIR)/NFCTap/openssl/**",
 					"$(SDKROOT)/usr/lib/swift",
 					"$(PROJECT_DIR)/NFCTap/st25sdklib",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/watchos",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/appletvos",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/maccatalyst",
+					"$(PROJECT_DIR)/NFCTap/j2objc-2.8/lib/macosx",
 				);
 				MARKETING_VERSION = 13.0;
 				NEW_SETTING = "";
@@ -3897,6 +4069,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D1C1AEE29CA1A3F008C25B6 /* Build configuration list for PBXNativeTarget "ST25NFCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1C1AEC29CA1A3F008C25B6 /* Debug */,
+				1D1C1AED29CA1A3F008C25B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A1FE891A1D11A5EC00B793C9 /* Build configuration list for PBXProject "NFCTap " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
